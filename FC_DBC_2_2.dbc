@@ -1,0 +1,55 @@
+VERSION "HIPBNYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY/4/%%%/4/'%**4YYY///"
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+
+BS_:
+
+BU_:
+
+
+BO_ 256 FC_Velocity: 4 Vector__XXX
+ SG_ FC_Velocity : 0|32@1- (1,0) [-100|100] "" Vector__XXX
+
+BO_ 257 FC_Volume_Flow: 4 Vector__XXX
+ SG_ FC_Volume : 0|32@1- (1,0) [0|100] "" Vector__XXX
+
+BO_ 258 FC_Mass_Flow: 4 Vector__XXX
+ SG_ FC_Mass_Flow : 0|32@1- (1,0) [-100|100] "g/s" Vector__XXX
+
+BO_ 259 FC_Temp: 4 Vector__XXX
+ SG_ FC_Temp : 0|32@1- (1,0) [-200|200] "C" Vector__XXX
+
+BO_ 260 FC_Density: 4 Vector__XXX
+ SG_ FC_Density : 0|32@1- (1,0) [-100|100] "" Vector__XXX
+
+BO_ 261 FC_Totaliser: 4 Vector__XXX
+ SG_ FC_Totaliser : 0|32@1- (1,0) [0|100000] "g" Vector__XXX
+
+
+SIG_VALTYPE_ 256 FC_Velocity : 1;
+SIG_VALTYPE_ 257 FC_Volume : 1;
+SIG_VALTYPE_ 258 FC_Mass_Flow : 1;
+SIG_VALTYPE_ 259 FC_Temp : 1;
+SIG_VALTYPE_ 260 FC_Density : 1;
+SIG_VALTYPE_ 261 FC_Totaliser : 1;
